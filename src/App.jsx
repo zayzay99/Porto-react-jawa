@@ -50,12 +50,10 @@ function App() {
           </div>
         </div>
       </div>
-
       <div className="tools mt-32">
       <h1 className="text-4xl/snug font-bold mb-4" data-aos="fade-up" data-aos-duration="1000"data-aos-once="true">Tools yang di pakai</h1>
       <p className="xl:w-2/5 lg:w-2/4 md:w-2/3 sm:w-3/4 w-full text-base/loose opacity-50" data-aos="fade-up" data-aos-duration="1000" data-aos-delay="300"data-aos-once="true">Berikut ini tools yang saya sering pakai</p>
         <div className="tools-box mt-14 grid lg:grid-cols-4 md:grid-cols-3 sm:grid-cols-2 grid-cols-1 gap-4">
-
           {listTools.map((tool) => (
             <div className="flex items-center gap-2 p-3 border border-zinc-600 rounded-md hover:bg-zinc-800 group" key={tool.id} data-aos="fade-up" data-aos-duration="1000" data-aos-delay={tool.dad}data-aos-once="true">
           <img src={tool.gambar} alt="Tools image" className="w-14 bg-zinc-800 p-1 group-hover:bg-zinc-900" />
@@ -64,8 +62,7 @@ function App() {
             <p className="opacity-50">{tool.ket}</p>
           </div>
           </div>
-          ))}
-          
+          ))} 
         </div>
       </div>
     </div>
@@ -101,7 +98,7 @@ function App() {
           <div className="kontak mt-32 sm:p-10 p-0" id="kontak">
             <h1 className="text-4xl mb-2 font-bold text-center"data-aos="fade-up" data-aos-duration="1000"data-aos-once="true" >Kontak</h1>
             <p className="text-base/loose text-center mb-10 opacity-10"data-aos="fade-up" data-aos-duration="1000" data-aos-delay="300"data-aos-once="true">Mari Kenali Lebih Dekat</p>
-            <form action="https://formsubmit.co/jidanal651@email.com"method="POST" className="bg-zinc-800 p-10 sm:w-fit w-full mx-auto rounded-md" autoComplete="off"data-aos="fade-up" data-aos-duration="1000" data-aos-delay="500">
+            <form action="https://formsubmit.co/jidanal651@gmail.com"method="POST" className="bg-zinc-800 p-10 sm:w-fit w-full mx-auto rounded-md" autoComplete="off"data-aos="fade-up" data-aos-duration="1000" data-aos-delay="500">
               <div className="flex flex-col gap-6">
                 <div className="flex flex-col gap-2">
                   <label className="font-semibold">Nama Lengkap</label>
